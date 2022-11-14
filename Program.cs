@@ -32,70 +32,32 @@ int[] СonvertIndex(int a)
 
 int[,] pic = new int[3, 3];
 
-int[] array = new int[2];
-int a = 0;
-int x = array[0];
-int y = array[1];
+//int[] array = new int[2];
+//int a = 0;
+//int x = 0; 
+//int y = 0; 
 
 
 
 Console.WriteLine("Ходят x ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 1;
+int a1 = Convert.ToInt32(Console.ReadLine());
+int[] array1 = СonvertIndex(a1);
+int x1 = array1[0];
+int y1 = array1[1];
+pic[x1, y1] = 1;
 PrintImage(pic);
 
-Console.WriteLine(pic[x, y]);
-Console.WriteLine(array[1]);
+Console.WriteLine(pic[x1, y1]);
+Console.WriteLine($"{array1[0]}, {array1[1]}");
 
-Console.WriteLine("Ходят o ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 2;
+/*Console.WriteLine("Ходят o ");
+int a2 = Convert.ToInt32(Console.ReadLine());
+array = СonvertIndex(a2);
+int x2 = array[0];
+int y2 = array[1];
+pic[x2, y2] = 2;
 PrintImage(pic);
 
-Console.WriteLine(pic[x, y]);
-Console.WriteLine(array[1]);
+Console.WriteLine(pic[x2, y2]);
+Console.WriteLine($"{array[0]}, {array[1]}");*/
 
-/*
-Console.WriteLine("Ходят x ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 1;
-PrintImage(pic);
-
-Console.WriteLine("Ходят o ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 2;
-PrintImage(pic);
-
-Console.WriteLine("Ходят x ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 1;
-PrintImage(pic);
-
-Console.WriteLine("Ходят o ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 2;
-PrintImage(pic);
-
-Console.WriteLine("Ходят x ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 1;
-PrintImage(pic);
-
-Console.WriteLine("Ходят o ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 2;
-PrintImage(pic);
-
-Console.WriteLine("Ходят x ");
-a = Convert.ToInt32(Console.ReadLine());
-array = СonvertIndex(a);
-pic[x, y] = 1;
-PrintImage(pic);*/

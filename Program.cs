@@ -17,27 +17,55 @@ int[] СonvertIndex(int a)
 {
     int[] array = new int[2];
 
-    if (a == 7) array[0] = 0; array[1] = 0;
-    if (a == 8) array[0] = 0; array[1] = 1;
-    if (a == 9) array[0] = 0; array[1] = 2;
-    if (a == 4) array[0] = 1; array[1] = 0;
-    if (a == 5) array[0] = 1; array[1] = 1;
-    if (a == 6) array[0] = 1; array[1] = 2;
-    if (a == 1) array[0] = 2; array[1] = 0;
-    if (a == 2) array[0] = 2; array[1] = 1;
-    if (a == 3) array[0] = 2; array[1] = 2;
-    
+    if (a == 7) 
+    {
+        array[0] = 0;
+        array[1] = 0;
+    }    
+    if (a == 8) 
+    {
+        array[0] = 0; 
+        array[1] = 1;
+    }
+    if (a == 9) 
+    {
+        array[0] = 0;
+        array[1] = 2;
+    }
+    if (a == 4) 
+    {
+        array[0] = 1;
+        array[1] = 0;
+    }
+    if (a == 5) 
+    {
+        array[0] = 1; 
+        array[1] = 1;
+    }
+    if (a == 6) 
+    {
+        array[0] = 1; 
+        array[1] = 2;
+    }
+    if (a == 1) 
+    {
+        array[0] = 2; 
+        array[1] = 0;
+    }
+    if (a == 2) 
+    {
+    array[0] = 2; 
+    array[1] = 1;
+    }
+    if (a == 3) 
+    {
+        array[0] = 2; 
+        array[1] = 2;
+    }
     return array;
 }
 
 int[,] pic = new int[3, 3];
-
-//int[] array = new int[2];
-//int a = 0;
-//int x = 0; 
-//int y = 0; 
-
-
 
 Console.WriteLine("Ходят x ");
 int a1 = Convert.ToInt32(Console.ReadLine());
@@ -60,4 +88,3 @@ PrintImage(pic);
 
 Console.WriteLine(pic[x2, y2]);
 Console.WriteLine($"{array[0]}, {array[1]}");*/
-
